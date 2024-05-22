@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(3d2fc4c736f912755c2f8d15ea3a25d7.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 85%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(3px) saturate(100%);
+    -webkit-backdrop-filter: blur(3px) saturate(100%);
+    background-color: rgba(17, 25, 40, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+input[type=radio]{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    grid-row: 10px;
+}
+
+
+.izquierda{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+    font-size: 32px;
+}
+img{
+    width: 350px;
+    height: 350px;  
+
+
+
+}
+
+
+/* estilos imput*/
+.input {
+    border: none;
+    padding: 10px;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    box-shadow: 20px 20x 60px #c5c5c5,
+           -20px -20px 60px #ffffff;
+    transition: 0.3s;
+}
+   
+.input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+           inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+}
+
+.checkbox{
+    display: flex;
+}
+
+
+.intereses{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxeintereses{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+

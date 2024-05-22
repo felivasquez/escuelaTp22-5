@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="datosuscripcion.php" method="post">
+            <div class="izquierda">
+                <div class="titulo">
+                    <h2>bienvenidos</h2>
+                </div>
+                <div class="Imagen">
+                    <img src="space.png" alt="">
+                </div>
+            </div>
+            <div class="form">
+                <h2>Suscripcion electronica a nuestro boletin</h2>
+                <div class="grilla">
+                    <div class="inputbox">
+                        <input required="required" class="input" name="nombre" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="inputbox">
+                        <input required="required" class="input" name="apellido" type="text" placeholder="Apellido">
+                    </div>
+                    <div class="inputbox">
+                        <input required="required" class="input" name="email" type="Email" placeholder="Email">
+                    </div>
+                    <div class="inputbox">
+                        <input required="required" class="input" name="pass" type="password" placeholder="password">
+                    </div>
+                </div>
+                <div class="boxeintereses">
+                    <div class="checkbox">
+                        <div class="sexo">
+                            Sexo: <br>
+                            <input type="radio" name="sexo" value="varon">Varon 
+                            <input type="radio" name="sexo" value="mujer">Mujer
+                        </div>
+                        <div class="estudios">
+                            Nivel de estudios:
+                            Certificado Escolar
+                            <input type="radio" name="estudios" id="">
+                            Graduado en ESO
+                            <input type="radio" name="estudios" id="">
+                            Bachiller - Formacion Personal
+                            <input type="radio" name="estudios" id="">
+                            Diplomado
+                            <input type="radio" name="estudios" id="">
+                            Licenciado o doctorado
+                            <input type="radio" name="estudios" id="">
+                        </div>
+                    </div>  
+                    <div class="intereses">
+                        Interesado en los siguientes temas: 
+                        Musica
+                        <input type="checkbox" name="musica" id="">
+                        Deportes
+                        <input type="checkbox" name="deportes" id="">
+                        Cine
+                        <input type="checkbox" name="cine" id="">  
+                        libros     
+                        <input type="checkbox" name="libros" id="">
+                        ciencia
+                        <input type="checkbox" name="ciencia" id="">
+                    </div>
+                </div>
+
+
+                Dia de la semana que le interesa reibirlo:
+                <select name="diaSem" id="">
+                    <option value="1">Domingo</option>
+                    <option value="2">Lunes</option>
+                    <option value="3">Martes</option>
+                    <option value="4">Miercoles</option>
+                    <option value="5">Jueves</option>
+                    <option value="6">Viernes</option>
+                    <option value="7">Sabado</option>
+                </select>
+                
+                Su opinion:
+                <textarea name="texto" id="" cols="30" rows="2"></textarea>
+                
+                <div class="botones">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar todo">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
